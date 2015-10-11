@@ -3,3 +3,5 @@
 src/bench
 src/hash
 src/test
+*.o
+.vagrant

@@ -1,7 +1,13 @@
-/src/deps/*
-*.dSYM
-src/bench
-src/hash
-src/test
+# Binaries and build artifacts
+debug/
+release/
 *.o
-.vagrant
+
+# Coverage
+*.gcda
+*.gcno
+*.gcov
+coverage.out
+
+# Vagrant
+.vagrant/
